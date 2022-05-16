@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Knowledge Base</title>
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container">
+        <a href="index.html" class="navbar-brand me-0">
+          <img src="img/40x40.png" alt="Brand Logo" class="me-2" /> Knowledge Base
+        </a>
+        <div class="dropdown">
+          <button
+            type="button"
+            class="btn btn-secondary btn-sm dropdown-toggle"
+            id="dropdownLanguage"
+            data-bs-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            English
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownLanguage">
+            <a href="#0" class="dropdown-item">Language1</a>
+            <a href="#0" class="dropdown-item">Language2</a>
+            <a href="#0" class="dropdown-item">Language3</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container mt-3 mb-5">
+        <form class="mb-5">
+          <div class="input-group input-group-lg">
+            <input
+              type="search"
+              name="search"
+              class="form-control"
+              id="search"
+              placeholder="How can we help you?"
+              aria-label="Search for..."
+              aria-describedby="buttonSearch"
+            />
+            <button type="submit" class="btn btn-primary" id="buttonSearch">Search</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <script src="../Bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
