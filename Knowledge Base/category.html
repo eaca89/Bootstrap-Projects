@@ -34,20 +34,32 @@
     </nav>
     <main>
       <div class="container mt-3 mb-5">
-        <form class="mb-5">
-          <div class="input-group input-group-lg">
-            <input
-              type="search"
-              name="search"
-              class="form-control"
-              id="search"
-              placeholder="How can we help you?"
-              aria-label="Search for..."
-              aria-describedby="buttonSearch"
-            />
-            <button type="submit" class="btn btn-primary" id="buttonSearch">Search</button>
+        <div class="row flex-lg-row-reverse mb-lg-3">
+          <div class="col-12 col-lg-6 mb-3 mb-lg-0">
+            <form>
+              <div class="input-group input-group-lg">
+                <input
+                  type="search"
+                  name="search"
+                  class="form-control"
+                  id="search"
+                  placeholder="How can we help you?"
+                  aria-label="Search for..."
+                  aria-describedby="buttonSearch"
+                />
+                <button type="submit" class="btn btn-primary" id="buttonSearch">Search</button>
+              </div>
+            </form>             
           </div>
-        </form>
+          <div class="col-12 col-lg-6 mb-3 mb-lg-0 text-muted">
+            <nav aria-label="Site navigation">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Category Heading</a></li>
+                </ol>
+            </nav>
+          </div>
+        </div>
       </div>
     </main>
     <footer class="small bg-light">
